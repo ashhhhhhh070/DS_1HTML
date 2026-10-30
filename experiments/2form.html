@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <fieldset>
+
+        <form action="response.html">
+            <label for="name">Username: </label>
+            <input type="text" name="name" placeholder="Enter your name" id="name" required>
+
+            <br>
+            <br>
+
+            <label for="Password">Password:</label>
+            <input type="password" name="Password" placeholder="Enter your password" id="Password">
+
+            <br><br>
+
+            <label for="email">Email: &emsp; </label>
+            <input type="text" name="email" id="email" placeholder="Enter your email">
+
+            <br><br>
+
+            <label for="date">Date: &emsp;</label>
+            <input type="date" name="date" id="date">
+
+            <br><br>
+
+            <label for="gender">Gender: </label>
+            <input type="radio" name="gender " id="gender"><label for="gender">Male</label>
+            <input type="radio" name="gender " id="gender"><label for="gender">Female</label>
+
+
+            <br><br>
+
+            <label for="hobb">Hobbies: </label>
+            <input type="checkbox" id="hobb1" name="hobb1"><label for="football">Football </label>
+            <input type="checkbox" id="hobb2" name="hobb2"><label for="cricket">Cricket </label>
+
+            <br><br>
+
+            <label for="lan">Language: </label>
+            <select name="lan" id="lan">
+                <option value="">Select lang</option>
+                <option value="c">Cpp</option>
+                <option value="j">Java</option>
+                <option value="p">Python </option>
+            </select>
+
+            <br><br>
+
+            <label for="tele">Phone:</label>
+            <input type="tel" name="tel" id="tel" >
+
+            <br><br>
+            <label for="add">Address: </label>
+            <textarea name="add" id="add"></textarea>
+
+            <br><br>
+            <label for="attmpt">Attempt: </label>
+            <input type="number">
+            
+            <br><br>
+            <label for="resume">Upload resume: </label>
+            <input type="file" name="resue" id="resume">
+
+            <br><br>
+            <input type="submit" value="Submit form">
+            <input type="reset">
+
+        </form>
+
+
+    </fieldset>
+</body>
+
+</html>
